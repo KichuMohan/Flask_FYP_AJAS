@@ -1,0 +1,84 @@
+{% extends "base_1.html" %}
+	
+	
+
+{% block content %}
+
+		<section class="mid">
+		<div class="container">
+				<div class="row">
+						<div class="col-sm logo">
+							  AJAS
+							</div>
+						<div class="col-sm sub">
+							  <div class="container">
+									<div class="row">
+										<h5>TuberCulosis Classification</h5>
+									</div>
+									<div class="row">
+										<h6>Physician : Artificial Intelligence</h6>	
+									</div>
+									<div class="row">
+										<h6>Date : {{dd}}</h6>	
+									</div>
+							  </div>
+							  
+							</div>
+  </div>
+</div>
+		<hr>
+		<br>
+		<div class="container">
+		
+				<div class="row">
+						<div class="col-sm H">
+									 <h6> Patient information :  </h6>
+									</div>
+						<div class="col-sm A">
+									  NOT AVAILABLE 
+									</div>
+				</div>
+				<div class="row">
+					<div class="col-sm H">
+									 <h6> Result :  </h6>
+									</div>
+						<div class="col-sm A">
+									  {{pred}}
+									</div>
+				</div>
+				<div class="row">
+						<div class="col-sm H">
+									 <h6> Accuracy :  </h6>
+									</div>
+						<div class="col-sm A">
+									 {{acc}}%
+									</div>
+				</div>
+				
+
+				
+
+				
+		
+		
+		</div>
+		
+		<br>
+		<b>Disclaimer of Information & Conntent<b>
+		<p class="disc">
+				 The content on this website is for information only.
+				 It is not intended to provide medical, legal, or any 
+				 other professional advice. No individuals should use the information
+				 resources or tools contained within to slef-diagonsis or self-treat
+				 any health condition.
+		</p>
+		
+		<br>
+		<p class="page">Page 1 of 1</p>
+		<button class="bt" onclick="window.print()">Print this page</button>
+		</section>
+
+
+
+{% endblock %}
+	

@@ -1,0 +1,66 @@
+
+
+hr{
+	margin: 0rem 0!important;
+    display: block!important;
+    height: 1px!important;
+    
+    width: 100%;
+    border: none!important;
+    border-top: solid 1px #000!important;
+}
+
+.mid{
+	
+	padding-top:50px;
+	width:60%;
+	margin:0 auto;
+}
+
+.head_1 {
+	display: grid;
+	grid-template-columns: auto auto auto;
+  
+}
+.sub{
+	
+	text-align:right;
+	
+	
+}
+.sub h6{
+	font-weight:300;
+	font-size:12pt;
+}
+
+.logo{
+	font-family:Monoton;
+	font-size:xxx-large;
+	font-weight:600;
+	
+}
+
+.H{
+	text-align:left;
+}
+.A{
+	text-align:right;
+}
+.row{
+	padding-bottom:10px;
+	
+}
+
+p{
+	padding:6px;
+	padding-top:10px;
+}
+.page{
+	margin-top:6%;
+	font-size:7pt;
+	text-align:right;
+}
+
+.bt{
+	margin-top:5%;
+}
