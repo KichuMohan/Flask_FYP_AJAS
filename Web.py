@@ -54,7 +54,7 @@ def predict():
 			if request.method == 'PUT':
 				return jsonify(output="Normal")
 			else:
-				return render_template('Result.html',pred='Normal',acc=round((1-p)*100,2),dd=today)
+				return render_template('Result.html',pred='Normal',acc=round((100-p),2),dd=today)
 			
 		else:
 			if request.method == 'PUT':
